@@ -4,6 +4,7 @@ import axios from 'axios';
 import Account from './Account'; 
 
 jest.mock('axios');
+const mockedAxios = axios as jest.Mocked<typeof axios>;
 
 jest.mock('../../components/ISAForm/ISAForm', () => () => <div data-testid="ISAForm">ISAForm Mock</div>);
 jest.mock('../../components/InvestmentTable/InvestmentTable', () => () => <div data-testid="InvestmentsTable">InvestmentsTable Mock</div>);
@@ -14,7 +15,7 @@ describe('Account Component', () => {
 
   beforeEach(() => {
     jest.clearAllMocks();
-    axios.get.mockResolvedValue({ data: mockFunds });
+    mockedAxios.get.mockResolvedValue({ data: mockFunds });
   });
 
   it('conditionally renders InvestmentsTable based on investments state', async () => {

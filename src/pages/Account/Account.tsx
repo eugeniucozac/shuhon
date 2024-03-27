@@ -51,7 +51,7 @@ const Account = () => {
       setSelectedFund(fund || null);
     };
 
-    const handleAmountChange = (event: ChangeEvent<HTMLInputElement>) => {
+    const handleAmountChange = (event: ChangeEvent<any>) => {
       setInvestmentAmount(event.target.value);
     };
 

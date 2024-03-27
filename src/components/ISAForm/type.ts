@@ -11,7 +11,7 @@ export type ISAFormType = {
     funds: FundType[],
     errors?: ErrorsType,
     investmentAmount: number,
-    handleFundChange: (event: ChangeEvent<{ name?: string | undefined; value: unknown; }>) => void;
+    handleFundChange: (event: any) => void;
     handleAmountChange: (event: ChangeEvent<HTMLInputElement>) => void;
     handleSubmit: (event: FormEvent<HTMLFormElement>) => void;
 }

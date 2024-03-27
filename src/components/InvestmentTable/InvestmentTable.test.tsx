@@ -8,7 +8,7 @@ jest.mock('date-fns', () => ({
 }));
 
 describe('InvestmentsTable Component', () => {
-  const investments = [
+  const investments: any = [
     { fundName: { id: '1', name: 'Fund A' }, investedAmount: 1000, time: new Date('2021-01-01T00:00:00Z') },
     { fundName: { id: '2', name: 'Fund B' }, investedAmount: 2000, time: new Date('2021-02-01T00:00:00Z') },
   ];
