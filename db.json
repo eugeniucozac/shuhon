@@ -1,0 +1,94 @@
+{
+    "funds": [
+      {
+        "id": 1,
+        "name": "Global Equity Fund",
+        "description": "A diverse portfolio of global equities.",
+        "riskLevel": "Medium"
+      },
+      {
+        "id": 2,
+        "name": "Sustainable Energy Fund",
+        "description": "Invests in renewable energy and sustainable technology.",
+        "riskLevel": "High"
+      },
+      {
+        "id": 3,
+        "name": "Government Bond Fund",
+        "description": "Investment in government securities.",
+        "riskLevel": "Low"
+      },
+      {
+        "id": 4,
+        "name": "Emerging Markets Fund",
+        "description": "Focuses on high-growth potential markets.",
+        "riskLevel": "High"
+      },
+      {
+        "id": 5,
+        "name": "Corporate Debt Fund",
+        "description": "Invests in high-quality corporate bonds.",
+        "riskLevel": "Medium"
+      },
+      {
+        "id": 6,
+        "name": "Technology Growth Fund",
+        "description": "Targets high-growth technology companies.",
+        "riskLevel": "High"
+      },
+      {
+        "id": 7,
+        "name": "Healthcare Innovation Fund",
+        "description": "Invests in innovative healthcare and biotech companies.",
+        "riskLevel": "Medium"
+      },
+      {
+        "id": 8,
+        "name": "Income Fund",
+        "description": "Aims to provide regular income through dividends.",
+        "riskLevel": "Low"
+      },
+      {
+        "id": 9,
+        "name": "Precious Metals Fund",
+        "description": "Invests in gold, silver, and other precious metals.",
+        "riskLevel": "Medium"
+      },
+      {
+        "id": 10,
+        "name": "Real Estate Investment Fund",
+        "description": "Focuses on real estate investments and property management.",
+        "riskLevel": "Medium"
+      },
+      {
+        "id": 11,
+        "name": "Commodities Fund",
+        "description": "Invests in a range of commodities from energy to agriculture.",
+        "riskLevel": "High"
+      },
+      {
+        "id": 12,
+        "name": "Fixed Income Fund",
+        "description": "Consists of investments that pay fixed rates of return like government bonds.",
+        "riskLevel": "Low"
+      },
+      {
+        "id": 13,
+        "name": "International Bond Fund",
+        "description": "Invests in a variety of international bonds.",
+        "riskLevel": "Medium"
+      },
+      {
+        "id": 14,
+        "name": "Index Fund",
+        "description": "Aims to replicate the performance of a specified index.",
+        "riskLevel": "Low"
+      },
+      {
+        "id": 15,
+        "name": "Money Market Fund",
+        "description": "Invests in short-term debt securities.",
+        "riskLevel": "Low"
+      }
+    ]
+  }
